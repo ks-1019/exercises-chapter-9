@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "expressions"
+version = "0.1"
+
+[tool.hatch.build.targets.wheel]
+packages = ["expressions"]
